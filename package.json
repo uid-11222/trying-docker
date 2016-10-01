@@ -6,7 +6,7 @@
     "test": "sudo docker run -it --rm --name running-test test-npm-statistic",
     "clear": "sudo docker rmi test-npm-statistic",
     "remove": "sudo docker rmi",
-    "worked": "sudo docker ps -a",
+    "working": "sudo docker ps -a",
     "kill": "sudo docker kill",
     "rm": "sudo docker rm",
     "show": "sudo docker images -a"
