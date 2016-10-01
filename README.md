@@ -16,6 +16,8 @@ npm run
  - rm: remove container by ID
  - show: list of images
 
+About Docker: https://habrahabr.ru/post/272145/ (russian).
+
 ## License ##
 [MIT](LICENSE)
 
