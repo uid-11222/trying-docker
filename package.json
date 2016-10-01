@@ -1,0 +1,24 @@
+{
+  "name": "trying-docker",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "sudo docker build -t test-npm-statistic .",
+    "test": "sudo docker run -it --rm --name running-test test-npm-statistic",
+    "clear": "sudo docker rmi test-npm-statistic",
+    "remove": "sudo docker rmi",
+    "worked": "sudo docker ps -a",
+    "kill": "sudo docker kill",
+    "rm": "sudo docker rm",
+    "show": "sudo docker images -a"
+  },
+  "author": "uid-11222",
+  "bugs": {
+    "url": "https://github.com/uid-11222/trying-docker/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/uid-11222/trying-docker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uid-11222/trying-docker"
+  }
+}
